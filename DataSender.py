@@ -24,7 +24,6 @@ class DataSender(SignalDictionary,RaspSend,GraphSocket):
     def __init__(self):
         #Initialize the super class
         RaspSend.__init__(self)
-        
         #Create the signals
         square = SquareFunc()
         #Add them to the dictionary 

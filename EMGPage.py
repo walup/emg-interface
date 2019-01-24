@@ -27,7 +27,7 @@ class EMGPage(RunnablePage):
         #The title
         self.title = tk.Label(self,text = "Interfaz EMG",font = self.emgPanel.getFont())
         #Initialize the start button
-        self.startButton = ttk.Button(self,text = "Iniciar Adquisición",command = lambda:self.start)
+        self.startButton = ttk.Button(self,text = "Iniciar Adquisición",command = lambda:self.start())
         #Some parameters for the graph
         graphParameters = GraphParameters()
         graphParameters.setXLabel("Tiempo (s)")

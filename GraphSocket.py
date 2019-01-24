@@ -7,8 +7,10 @@ class GraphSocket():
     
     def attachGraph(self,graph):
         self.graph = graph
+        
     def renderGraph(self):
         pass
+    
     def stopGraph(self):
         self.graph.stopGraph()
         self.graph = None
